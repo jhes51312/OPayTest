@@ -94,7 +94,6 @@ namespace prjIHealth.Areas.Admin.Controllers
             return View();
         }
 
-
         public IActionResult Details(int? id)
         {
             IHealthContext db = new IHealthContext();
